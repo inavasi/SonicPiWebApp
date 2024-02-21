@@ -6,8 +6,40 @@
       "command": "cd  my-app"
     },
     {
-      "command": "npm install ruby",
-      "name": "npm install ruby"
+      "name": "npm install ruby",
+      "command": "npm install ruby"
+    },
+    {
+      "command": "npm install cors",
+      "name": "n"
+    },
+    {
+      "command": "npm install express",
+      "name": "npm install cors"
+    },
+    {
+      "command": "npm installreact",
+      "name": "npm intsall react"
+    },
+    {
+      "command": "npm installreact-dom",
+      "name": "npm intsall react-dom"
+    },
+    {
+      "command": "npm install react-scripts",
+      "name": "npm intsall react-scripts"
+    },
+    {
+      "command": "npm install react-web-midi",
+      "name": "npm intsall react-scripts"
+    },
+    {
+      "command": "npm install web-vitals",
+      "name": "webmidi"
+    },
+    {
+      "command": "npm install webmidi",
+      "name": "npm intsall webmidi"
     }
   ],
 
