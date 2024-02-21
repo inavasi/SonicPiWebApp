@@ -23,11 +23,11 @@
     },
     {
       "name": "npm intsall react-dom",
-      "command": "npm install react-dom"
+      "command": "npm install react-dom@15.4.2"
     },
     {
       "name": "npm intsall react-scripts",
-      "command": "npm install react-scripts"
+      "command": "npm install react-scripts@15.4.2"
     },
     {
       "name": "npm intsall react-scripts",

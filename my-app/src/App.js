@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import Piano from "./Piano";
-import Drums from "./Drums";
+import Piano from "./Piano.js";
+import Drums from "./Drums.js";
 import "./App.css";
 import WebMidi from "webmidi";
-import Slider from "./Slider";
-import Notes from "./Notes";
-import Buttons from "./Buttons";
+import Slider from "./Slider.js";
+import Notes from "./Notes.js";
+import Buttons from "./Buttons.js";
 import sonicLogo from "./346449.svg";
 
 function App() {
