@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  /* if gradients don't work  */
+  background: #B0C4DE; 
+  background: radial-gradient(#B0C4DE, #778899);
+  overflow: hidden;
+  font-family: Arial Black;
+  min-width:450px;
+  min-height:1000px;
+}
+
+.Text {
+  pointer-events: none;
+  opacity: 0.6;
+  font-size: 18px;	  
+}
+
+.logo  {
+  max-height: 40px;
+  pointer-events: none;
+  /* if gradients don't work  */
+  background: #B0C4DE;
+  background: radial-gradient(#B0C4DE, #778899);
+}
+
+.App-header {
+  background-color: #778899;
+  min-height: 50px;
+  max-height: 50px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+  pointer-events: none;
+}
+
+.App-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #778899;
+  color: white;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.NumberInput, .SliderName {
+  height: 25px;
+  width: 60px;
+  border: none;
+  opacity: 0.6;
+  margin: 15px;
+  padding: -5px;
+}
+
+.Slider {
+  -webkit-appearance: none;
+  height: 7px;
+  background: #A9A9A9;
+  outline-style: none;
+  outline-width: 0.1px;
+  outline-color: #A9A9A9;
+  opacity: 0.6;
+  -webkit-transition: .3s;
+  transition: opacity .3s;
+  box-shadow: 0 0.5px 2px 0;
+  margin: -5px;
+}
+
+.Slider:hover {
+  opacity: 2;
+  background: radial-gradient(#FF1493, #B0C4DE);
+}
+
+.Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 8px;
+  height: 15px;
+  background: #B0C4DE;
+  border: none;
+  cursor: pointer;
+}
+
+.Slider::-moz-range-thumb {
+  width: 8px;
+  height: 8px;
+  background: #B0C4DE;
+  cursor: pointer;
+}
+
+.SliderDiv {
+  float: left;
+}
+
+.Piano {
+  pointer-events: auto;
+  keyframes: auto;
+  border: none;
+  margin-top: -40px;
+  margin-bottom: -50px;
+}
+
+input[type=text], input[type=number] {
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.06);
+}
+
+.Drums {
+  pointer-events: auto;
+  keyframes: auto;
+  border: none;
+  margin-left: -60px;
+  margin-bottom: -60px;
+  margin-top: 60px;
+}
+
+.Notes, .Buttons {
+  margin-right: 10px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  overflow: hidden;
+  float: right;
+}
+
+.NotesSvg,  text {
+  margin-top: -20px;
+  margin-bottom: -50px;
+  pointer-events: none;
+  stroke: none;
+  opacity: 0.9;
+}
+
+.Btn-group {
+  margin-right: 10px;
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.Btn {
+  border: 0;
+  font-size: 1em;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  color: #B0C4DE;
+  font-weight: lighter;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #F0F8FF;
+  border-radius: 4px;
+}
+
+.Btn:active {
+  background-color: #B0C4DE;
+  transform: translateY(2px);
+}
+
+.Btn:hover {
+  background: radial-gradient(#FF1493, #B0C4DE);
+}
+
+*:focus {
+  outline: 0;
+}
