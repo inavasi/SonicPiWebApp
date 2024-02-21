@@ -10,36 +10,36 @@
       "command": "npm install ruby"
     },
     {
-      "command": "npm install cors",
-      "name": "n"
+      "name": "n",
+      "command": "npm install cors"
     },
     {
-      "command": "npm install express",
-      "name": "npm install cors"
+      "name": "npm install cors",
+      "command": "npm install express"
     },
     {
-      "command": "npm installreact",
-      "name": "npm intsall react"
+      "name": "npm intsall react",
+      "command": "npm install react@15.4.2"
     },
     {
-      "command": "npm installreact-dom",
-      "name": "npm intsall react-dom"
+      "name": "npm intsall react-dom",
+      "command": "npm install react-dom"
     },
     {
-      "command": "npm install react-scripts",
-      "name": "npm intsall react-scripts"
+      "name": "npm intsall react-scripts",
+      "command": "npm install react-scripts"
     },
     {
-      "command": "npm install react-web-midi",
-      "name": "npm intsall react-scripts"
+      "name": "npm intsall react-scripts",
+      "command": "npm install react-web-midi"
     },
     {
-      "command": "npm install web-vitals",
-      "name": "webmidi"
+      "name": "webmidi",
+      "command": "npm install web-vitals"
     },
     {
-      "command": "npm install webmidi",
-      "name": "npm intsall webmidi"
+      "name": "npm intsall webmidi",
+      "command": "npm install webmidi"
     }
   ],
 
