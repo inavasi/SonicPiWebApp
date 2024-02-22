@@ -178,7 +178,7 @@ live_loop :selfmade_samples do
   if (button5)
 
     # for Windows uncomment this and put the right path in to use button 5 
-    #sample "D:/inava/Uni/PMI/PROJEKTFINAL/tAKEmEtOtHEtOP.wav", amp: 0.5
+    #sample "D:/../../../../tAKEmEtOtHEtOP.wav", amp: 0.5
 
 
     # for Mac / raspberry pi / Linux uncomment this and put the right path in
